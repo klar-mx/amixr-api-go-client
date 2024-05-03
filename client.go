@@ -37,7 +37,7 @@ type PaginatedResponse struct {
 
 type Client struct {
 	// HTTP client used to communicate with the API.
-	client         *retryablehttp.Client
+	Client         *retryablehttp.Client
 	token          string
 	baseURL        *url.URL
 	disableRetries bool
